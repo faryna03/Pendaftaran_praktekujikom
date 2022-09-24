@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    switch (view.getId()) {
+    case R.id.radioButton:
+    if (checked)
+    <item android:state_checked="true"
+        android:drawable="@android:color/holo_blue_bright"
+        />
+    <item android:state_checked="false"
+        android:drawable="@android:color/white"
+        />
+<!--    break;-->
+<!--    case R.id.radioButton2:-->
+<!--    if (checked)-->
+<!--    <item android:state_checked="true"-->
+<!--        android:drawable="@android:color/holo_blue_bright"-->
+<!--        />-->
+<!--    <item android:state_checked="false"-->
+<!--        android:drawable="@android:color/white"-->
+<!--        />-->
+<!--    break;-->
+
+
+</selector>
